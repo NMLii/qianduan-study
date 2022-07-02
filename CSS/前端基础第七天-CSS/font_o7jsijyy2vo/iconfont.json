@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "30178392",
+      "name": "收藏",
+      "font_class": "shoucang",
+      "unicode": "100da",
+      "unicode_decimal": 65754
+    }
+  ]
+}
