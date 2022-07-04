@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>伪元素选择器使用场景-字体图标</title>
+    <style>
+        div{
+            position: relative;
+            width: 200px;
+            height: 35px;
+            border: 1px solid red;
+        }
+        div::after{
+            position: absolute;
+            top: 6px;
+            right: 10px;
+            content: 'v';
+            color: red;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
