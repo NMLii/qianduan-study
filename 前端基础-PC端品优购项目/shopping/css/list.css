@@ -1,0 +1,133 @@
+/* 列表页专有CSS */
+.nav {
+    overflow: hidden;
+}
+
+.sk {
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    border-left: 1px solid #c81523;
+    padding: 3px 0 0 14px;
+}
+
+.sk_list {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list ul li a {
+    display: block;
+    line-height: 47px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+
+.sk_con {
+    float: left;
+}
+
+.sk_con ul li {
+    float: left;
+}
+
+.sk_con ul li a {
+    display: block;
+    line-height: 49px;
+    padding: 0 20px;
+    font-size: 14px;
+}
+
+.sk_con ul li:last-child a::after {
+    content: '\e91e';
+    font-family: "icomoon";
+}
+
+.sk_bd ul li {
+    overflow: hidden;
+    float: left;
+    margin-right: 13px;
+    width: 290px;
+    height: 460px;
+    border: 1px solid transparent;
+}
+
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.sk_bd ul li:hover {
+    border: 1px solid #c81523;
+}
+
+.sk_bd .txt{
+    padding: 0 12px;
+    font-size: 14px;
+    color: #666666;
+}
+
+.sk_bd i {
+    display: block;
+    color: #c81523;
+    font-size: 18px;
+    padding: 12px 0 12px 12px;
+    font-weight: 700;
+}
+
+.sk_bd i::after{
+    content: '￥6988';
+    color: #ccc;
+    font-size: 12px;
+    text-decoration: line-through;
+    margin-left: 6px;
+}
+
+.info{
+    height: 15px;
+    line-height: 15px;
+    font-size: 14px;
+}
+
+.info p{
+    float: left;
+    margin-left: 12px;
+}
+
+.sk_bd .info span{
+    color: #c81523;
+    font-size: 16px;
+}
+
+.jdt{
+    float: left;
+    height: 14px;
+    width: 133px;
+    border: 1px solid #c81523;
+    border-radius: 6px;
+    margin: 2px 10px 0px 10px;
+}
+
+.jdt_in{
+    top: 0;
+    left: 0;
+    width: 87%;
+    height: 100%;
+    background-color: #c81523;
+    border-radius: 6px 0 0 6px;
+}
+
+.sk_bd h5{
+    width: 290px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #c81523;
+    margin-top: 12px;
+    text-align: center;
+}
