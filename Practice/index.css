@@ -1,0 +1,456 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    border: 5px solid #535353;
+}
+
+button{
+    border: 0;
+    outline: none;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 1920px;
+}
+
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    height: 814px;
+    width: 100%;
+    background: url(images/header.png);
+}
+
+.nav ul{
+    height: 96px;
+    line-height: 96px;
+    margin-left: 45px;
+}
+
+.nav ul li{
+    float: left;
+}
+
+.nav ul li a{
+    font-size: 22px;
+    color: #ffffff;
+    padding: 0 45px;
+}
+
+.box1{
+    position: relative;
+    height: 1682px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.box1 .h{
+    position: absolute;
+    height: 450px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #eae7e8;
+    z-index: -1;
+}
+
+.box1 .f{
+    position: absolute;
+    height: 387px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: #eae7e8;
+}
+
+.txt1 {
+    position: relative;
+    width: 1150px;
+    height: 510px;
+    /* background-color: pink; */
+    margin: 38px auto 0;
+    padding-top: 38px;
+}
+
+.txt1 .img1{
+    float: left;
+    width: 420px;
+}
+
+.txt1 .img2{
+    position: absolute;
+    left: 120px;
+    bottom: -68px;
+}
+
+.txt1 .txt{
+    float: left;
+    top: 0;
+    right: 0;
+    width: 730px;
+    height: 100%;
+    padding: 90px 86px 82px 86px;
+    background-color: #fff;
+    box-shadow: 5px 5px 5px #cfcfcf; 
+    border: 1px solid #cfcfcf;
+}
+
+.txt1 .txt h5{
+    color: #000000;
+    font-size: 55px;
+    font-family: Britannic Bold;
+}
+
+.txt1 .txt p{
+    color: #000000;
+    font-size: 20px;
+    font-family: 宋体;
+    margin-top: 66px;
+}
+
+.txt2{
+    width: 100%;
+    height: 560px;
+    /* background-color: pink; */
+    margin-top: 162px;
+}
+
+.txt2 h5{
+    font-size: 55px;
+    color: #000000;
+    font-family: 微软雅黑;
+    text-align: center;
+}
+
+.txt2 h5 span{
+    font-family: Britannic Bold;
+}
+
+.txt2 ul{
+    margin: 100px 0;
+    height: 238px;
+}
+
+.txt2 ul li{
+    float: left;
+    width: 400px;
+    height: 255px;
+    /* background-color: skyblue; */
+    padding: 0 20px;
+}
+
+.txt2 ul li h6{
+    text-align: center;
+    font-size: 25px;
+    color: #000000;
+    font-family: 微软雅黑;
+}
+
+.txt2 ul li p{
+    margin-top: 32px;
+    font-size: 19px;
+    color: #000000;
+    font-family: 微软雅黑;
+    text-align: center;
+}
+
+.txt2 a{
+    display: block;
+    text-align: center;
+}
+
+.txt2 a button{
+    display: inline-block;
+    width: 240px;
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 微软雅黑;
+    color: #fff;
+    background-color: #2b2b2b;
+}
+
+.f .w{
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+.f .w .img1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 225px;
+    width: 100%;
+    z-index: 1;
+}
+
+.f .w .img2{
+    position: absolute;
+    top: 195px;
+    left: 45px;
+    z-index: 2;
+}
+
+.f .w .img3{
+    position: absolute;
+    bottom: -54px;
+    left: 0;
+    height: 235px;
+    width: 100%;
+}
+
+.box2{
+    height: 1358px;
+    width: 100%;
+}
+
+.bg{
+    position: relative;
+    height: 348px;
+    width: 100%;
+    background-color: #6f6d6d;
+}
+
+.bg .w{
+    text-align: center;
+}
+
+.bg .w h5{
+    display: inline-block;
+    color: #d8d8d8;
+    font-size: 19px;
+    font-family: Segoe Print;
+    margin-top: 75px;
+}
+
+.bg .w p{
+    color: #d8d8d8;
+    font-size: 25px;
+    font-family: Britannic Bold;
+}
+
+.bg .w .txt{
+    position: absolute;
+    top: 175px;
+    left: 545px;
+    width: 818px;
+    height: 278px;
+    margin: 34px auto 0;
+    background-color: #fff;
+    box-shadow: 2px 5px 15px #c6c6c6; 
+}
+
+.bg .w .txt img{
+    margin-top: 40px;
+}
+
+.bg .w .txt p{
+    font-size: 17px;
+    color: #000000;
+    font-family: 微软雅黑;
+    margin:28px 145px 0;
+    text-align: left;
+}
+
+.bg .w .txt ul{
+    margin-left: 310px;
+}
+
+.bg .w .txt ul li{
+    float: left;
+    width: 46px;
+    height: 10px;
+    background-color: #e6e4e4;
+    margin: 30px 14px;
+}
+
+.box2 .w{
+    text-align: center;
+}
+
+.box2 .w h5{
+    color: #000000;
+    font-size: 18px;
+    font-family: Segoe Script;
+    margin-top: 175px;
+    
+}
+
+.box2 .w p{
+    font-size: 25px;
+    color: #000000;
+    font-family: Britannic Bold;
+}
+
+.box2 .w .pro{
+    position: relative;
+    width: 886px;
+    height: 554px;
+    /* background-color: pink; */
+    margin: 0 auto;
+}
+
+.box2 .w .pro ul li:nth-child(1){
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 230px;
+    overflow: hidden;
+}
+.box2 .w .pro ul li:nth-child(2){
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 250px;
+    height: 305px;
+    overflow: hidden;
+}
+.box2 .w .pro ul li:nth-child(3){
+    position: absolute;
+    left: 318px;
+    top: 0;
+    width: 250px;
+    height: 374px;
+    overflow: hidden;
+}
+.box2 .w .pro ul li:nth-child(4){
+    position: absolute;
+    left: 318px;
+    bottom: 0;
+    width: 250px;
+    height: 166px;
+    overflow: hidden;
+}
+.box2 .w .pro ul li:nth-child(5){
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 230px;
+    overflow: hidden;
+}
+.box2 .w .pro ul li:nth-child(6){
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 250px;
+    height: 305px;
+    overflow: hidden;
+}
+
+.box2 .w  a{
+    text-align: center;
+}
+
+.box2 .w a button{
+    margin-top: 80px;
+    width: 224px;
+    height: 70px;
+    background-color: #4a3e42;
+    font-size: 25px;
+    font-family: 宋体;
+    color: #fff;
+}
+
+.box3{
+    height: 648px;
+    width: 100%;
+}
+
+.box3 .bg{
+    position: relative;
+    height: 336px;
+    background-color: #525553;
+    /* text-align: center; */
+}
+
+.box3 .bg .txt{
+    position: absolute;
+    top: 86px;
+    left: 544px;
+    width: 878px;
+    height: 435px;
+    background-color: #fff;
+    box-shadow: 0 8px 10px #c6c6c6;
+}
+
+.box3 .bg .txt ul{
+    padding-left: 38px;
+}
+
+.box3 .bg .txt ul li{
+    margin-top: 17px;
+    height: 120px;
+}
+
+.box3 .bg .txt ul li img{
+    float: left;
+    vertical-align: middle;
+}
+
+.box3 .bg .txt ul li p{
+    display: inline-block;
+    font-size: 19px;
+    
+    font-family: Britannic Bold;
+    color: #000000;
+    padding: 24px 0 0 50px;
+}
+
+.box3 a{
+    display: block;
+    margin-top: 226px;
+    margin-left: 864px;
+}
+
+.box3 button{
+    width: 204px;
+    height: 64px;
+    background-color: #e8024d;
+    font-family: 宋体;
+    font-size: 25px;
+    color: #fff;
+}
+
+footer{
+    height: 1014px;
+    width: 100%;
+}
+
+footer .im{
+    height: 978px;
+}
+
+footer img{
+    height: 100%;
+    width: 100%;
+}
+
+.copyright{
+    height: 36px;
+    width: 100%;
+    color: #b9b8b8;
+    font-family: 宋体;
+    font-size: 15px;
+    background-color: #535353;
+    text-align: center;
+    line-height: 36px;
+}
