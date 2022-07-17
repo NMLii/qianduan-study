@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function _getParams(url) {
+            // str.slice(start [, end])
+            // 返回字符串从 start 到（但不包括）end 的部分。
+            // 如果没有第二个参数，slice 会一直运行到字符串末尾
+            let splitUrl = url.slice(url.lastIndexOf('?')+1).split('&');
+            console.log(splitUrl)
+            let obj = {}
+            splitUrl.map(n => {
+                let [key,value] = n.split('=');
+                console.log([key,value]);
+                obj[key] = value
+            })
+            console.log(obj)
+            return obj
+        }
+      _getParams("https://nowcoder.com/online?id=1&salas=1000")
+
+    </script>
+</body>
+</html>

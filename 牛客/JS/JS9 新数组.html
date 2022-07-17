@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 描述
+    请补全JavaScript代码，该函数接受两个参数分别为数组、索引值，要求在不改变原数组的情况下返回删除了索引项的新数组。 -->
+    <script type="text/javascript">
+        const _delete = (array,index) => {
+            // 补全代码
+            // arr.concat 创建一个新数组，其中包含来自于其他数组和其他项的值。
+            var newArr=array.concat();
+            // arr.splice(start[, deleteCount, elem1, ..., elemN])
+            // 它从索引 start 开始修改 arr：删除 deleteCount 个元素并在当前位置插入 elem1, ..., elemN。最后返回被删除的元素所组成的数组。
+            // arr.splice(1, 1); // 从索引 1 开始删除 1 个元素
+            newArr.splice(index,1);
+            return newArr;
+        }
+    </script>
+</body>
+</html>

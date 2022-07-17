@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 描述
+    请补全JavaScript代码，该函数接收两个参数分别为旧版本、新版本，当新版本高于旧版本时表明需要更新，返回true，否则返回false。
+    注意：
+    1. 版本号格式均为"X.X.X"
+    2. X∈[0,9]
+    3. 当两个版本号相同时，不需要更新 -->
+    <script type="text/javascript">
+        const _shouldUpdate = (oldVersion, newVersion) => {
+            // 补全代码
+            // 调用 str.localeCompare(str2) 会根据语言规则返回一个整数，这个整数能指示字符串 str 在排序顺序中排在字符串 str2 前面、后面、还是相同：
+            // 如果 str 排在 str2 前面，则返回负数。
+            // 如果 str 排在 str2 后面，则返回正数。
+            // 如果它们在相同位置，则返回 0。
+            return newVersion.localeCompare(oldVersion)>=0?true:false;
+        }
+    </script>
+</body>
+</html>

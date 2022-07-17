@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 描述
+    请补全JavaScript代码，实现一个函数，要求如下：
+    1. 根据输入的数字范围[start,end]和随机数个数"n"生成随机数
+    2. 生成的随机数存储到数组中，返回该数组
+    3. 返回的数组不能有相同元素
+    注意：
+    1. 不需要考虑"n"大于数字范围的情况 -->
+    <script>
+        const _getUniqueNums = (start,end,n) => {
+            // 补全代码
+            // set 去重
+            var con = new Set();
+            // 生成 n 个不重复的随机数
+            while (con.size < n) {
+                // Math.random 生成 [0, 1) 的数字，可以将 结果 * (end - start) + start 扩大区间
+                con.add(Math.floor(Math.random() * (end - start) + start))
+            }
+            return [...con];
+        }
+    </script>
+</body>
+</html>

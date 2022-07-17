@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        function _comma(number) {
+            // 补全代码
+            if (number < 1000) {
+                console.log(number.toString());
+                return number.toString();
+            } else {
+                console.log(_comma(Math.floor(number / 1000)) + "," + _comma(number % 1000));
+                return _comma(Math.floor(number / 1000)) + "," + _comma(number % 1000);
+            }
+        }
+        _comma(12300);
+    </script>
+</body>
+</html>
